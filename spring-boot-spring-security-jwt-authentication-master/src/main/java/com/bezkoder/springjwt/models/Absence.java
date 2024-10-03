@@ -17,6 +17,7 @@ public class Absence implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_absence ;
     private String motif ;
+    //private String motif ;
     private LocalDate date;
     private boolean validee;
 
